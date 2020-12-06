@@ -21,9 +21,32 @@ background-color:#d8b890ff;
 padding:0 10px}
 h1,h2,h3
 {line-height:1.2}
+ 
+.navbar {
+  overflow: hidden;
+  background-color: #261C14;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #575923;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #8C6432;
+  color: #261C14;
+}
 </style>
  
- </head>
+</head>
 
 <body>
  <h1>The Frontier Is Alive</h1>
@@ -37,7 +60,12 @@ wayfinder@foretrek.com
  <br>
  <a href="https://www.youtube.com/channel/UCFBwtzRlGe8Qd9ou64zar5g/">Video Practice</a>
  <p>
-  <br>
+<div class="navbar">
+  <a href="#">Why</a>
+  <a href="#">Who</a>
+  <a href="#">What</a>
+  <a href="#" class="right">How</a>
+</div>
   
 
 
