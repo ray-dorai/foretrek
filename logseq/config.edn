@@ -1,3 +1,10 @@
+(:project {:name "Foretrek"
+                 :alias "Logseq Foretrek"}
+ :text-formats [],
+ :all-pages-public? true,
+ :default-home {:page "Contents"}
+                  
+
 {;; Currently, we support either "Markdown" or "Org".
  ;; This can overwrite your global preference so that
  ;; maybe your personal preferred format is Org but you'd
