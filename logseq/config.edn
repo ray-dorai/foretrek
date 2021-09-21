@@ -1,4 +1,4 @@
-(:project {:name "Foretrek"
+{:project {:name "Foretrek"
                  :alias "Logseq Foretrek"}
  :text-formats [],
  :all-pages-public? true,
